@@ -1,0 +1,6 @@
+/* dark background, light text */
+
+body {
+  background-color: #333;
+  color: #fff;
+}

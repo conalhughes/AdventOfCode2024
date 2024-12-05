@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styling.css">
+  <script src="AOC24_day2.js"></script>
+
+  <title>Day 2</title>
+</head>
+<body>
+  <h1> Day 2</h1>
+  <p> The answer to day2 part1 is:</p> 
+  <p id="day2-result1"></p>
+  <script>
+    day2_1().then(result => {
+      document.getElementById('day2-result1').innerText = result;
+    }).catch(error => {
+      console.error('Error:', error);
+    });
+  </script>
+  <p> The answer to day2 part2 is:</p>
+  <p id="day2-result2"></p>
+  <script>
+    day2_2().then(result => {
+      document.getElementById('day2-result2').innerText = result;
+    }).catch(error => {
+      console.error('Error:', error);
+    });
+  </script>
+</body>
+</html>
