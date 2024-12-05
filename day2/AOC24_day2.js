@@ -17,8 +17,6 @@ async function day2_1() {
 			invalid_reports++;
 		}
 	}
-	console.log('Valid reports:', valid_reports);
-	console.log('Invalid reports:', invalid_reports);
 	return valid_reports;
 }
 
@@ -37,9 +35,6 @@ async function day2_2() {
 			invalid_reports++;
 		}
 	}
-	console.log(check1)
-	console.log('Valid reports:', valid_reports);
-	console.log('Invalid reports:', invalid_reports);
 	return valid_reports;
 }
 
